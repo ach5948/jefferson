@@ -3,18 +3,17 @@
 
 from distutils.core import setup
 
-version = '0.3'
+version = "0.3"
 
 setup(
-    name='jefferson',
+    name="jefferson",
     version=version,
-    description='',
-    author='Stefan Viehböck',
-    url='https://github.com/sviehb/jefferson',
-    license='MIT',
-
+    description="",
+    author="Stefan Viehböck",
+    url="https://github.com/sviehb/jefferson",
+    license="MIT",
     requires=['cstruct'],
-    packages=['jefferson'],
-    package_dir={'jefferson': 'src/jefferson'},
-    scripts=['src/scripts/jefferson'],
+    packages=["jefferson"],
+    package_dir={"jefferson": "src/jefferson"},
+    scripts=["src/scripts/jefferson"],
 )
