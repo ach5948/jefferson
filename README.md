@@ -4,7 +4,7 @@ JFFS2 filesystem extraction tool
 Installation
 ============
 ```bash
-$ sudo python setup.py install
+$ sudo python3 setup.py install
 ```
 
 
@@ -13,7 +13,7 @@ Dependencies
 - `cstruct`
 
 ```bash
-$ sudo pip install cstruct
+$ sudo pip3 install -r requirements.txt
 ```
 
 Features
